@@ -1,0 +1,17 @@
+1. Describe the dataset. (ex: Information about Traffic violations in Montgomery County, MD; or The number of microaneurysms found in a patient's eye and whether or not they have diabetic retinopathy.)
+The dataset is gathered from experimental speed dating events. Based on the participants' interaction at the event, they gave ratings to their partners and themselves.
+
+2. How many records does the dataset have?
+8378.
+
+3. How many features does the dataset have? List or describe a few of them.
+123. Some features are gender, age, interests(hiking, gaming, etc.), attributes(attractiveness, sincerity, etc.). Participants gave a rating on interest based on their preference and rated both their partners and themselves on the attributes.
+
+4. What can you try to predict in this dataset? (ex: We can try using the features, including age, race, gender, car make and model, etc, to predict the type of traffic violation; or We can use the number of microaneurysms measured in the patient's eye to predict whether or not they have diabetic retinopathy.)
+Using the features, we can try to predict if a person would be able to find a match. We could also use the features to predict which interests or attributes have a higher probability of getting a match.
+
+5. Is this a labeled dataset, appropriate for a supervised learning classification problem? (In other words, if you are trying to predict whether or not someone has a disease, does your dataset contain whether or not each record has the disease?)
+Yes.
+
+6. Provide a link to the dataset, if there is one. If you are getting your data from somewhere other than a link, where are you getting it from?
+https://pkgstore.datahub.io/machine-learning/speed-dating/speed-dating_csv/data/5a84e19e65da15efcb846e81f4260a7d/speed-dating_csv.csv
