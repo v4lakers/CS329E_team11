@@ -1,17 +1,25 @@
 1. Describe the dataset. (ex: Information about Traffic violations in Montgomery County, MD; or The number of microaneurysms found in a patient's eye and whether or not they have diabetic retinopathy.)
-The dataset is gathered from experimental speed dating events. Based on the participants' interaction at the event, they gave ratings to their partners and themselves.
+The dataset is gathered from a speed dating event. Participants were asked several questions about themselves, several questions about their date, and an indication if the participant received a match or not. 
+
 
 2. How many records does the dataset have?
-8378.
+Originally, there were 8378 records. However, due to some null values, we decided to do list-wise deletion for records with too many null values. This brought us to a total of 8220 records.  
+
 
 3. How many features does the dataset have? List or describe a few of them.
-123. Some features are gender, age, interests(hiking, gaming, etc.), attributes(attractiveness, sincerity, etc.). Participants gave a rating on interest based on their preference and rated both their partners and themselves on the attributes.
+Originally, there were 123 features. About half of these features had duplicate information. For example, the feature "Hiking" asks the participant how much they like Hiking on a scale between 1-10 (10 being the highest amount inclination towards hiking). There is another feature "d_Hiking" there merely binned this count in categorical bins between 1 and 10. We are more interested in purely the numeric value for features like Hiking so we decided to remove all other variables that were binned when the exact amount was already provided. This lead us to 67 features. Other features include: gender, age, interests(hiking, gaming, etc.), attributes(attractiveness, sincerity, etc.). Participants gave a rating on interest based on their preference and rated both their partners and themselves on the attributes.
+
 
 4. What can you try to predict in this dataset? (ex: We can try using the features, including age, race, gender, car make and model, etc, to predict the type of traffic violation; or We can use the number of microaneurysms measured in the patient's eye to predict whether or not they have diabetic retinopathy.)
-Using the features, we can try to predict if a person would be able to find a match. We could also use the features to predict which interests or attributes have a higher probability of getting a match.
+Using the features, we can try to predict if a person received a match given the person's various features. We could also use the features to predict which interests or attributes have a higher probability of getting a match. The information we garner from this study will give us a better understanding of what qualities in a dating profile are more likely to catch a potential match's eye. 
+
 
 5. Is this a labeled dataset, appropriate for a supervised learning classification problem? (In other words, if you are trying to predict whether or not someone has a disease, does your dataset contain whether or not each record has the disease?)
-Yes.
+Our dataset is labeled. For each record, there are 66 features and 1 class label. This class label is an indication if the person received a match or not. 
+
 
 6. Provide a link to the dataset, if there is one. If you are getting your data from somewhere other than a link, where are you getting it from?
+Original Data:
 https://pkgstore.datahub.io/machine-learning/speed-dating/speed-dating_csv/data/5a84e19e65da15efcb846e81f4260a7d/speed-dating_csv.csv
+
+Cleaned Up Data:
