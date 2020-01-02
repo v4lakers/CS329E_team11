@@ -1,7 +1,5 @@
 # First Impression for Dummies
-Google Slide Presentation: https://docs.google.com/presentation/d/1ChKxf64mwxygFcGE20_WMQkf2lnopJ01jTeUqy33hEQ/edit?usp=sharing
-
-
+[Google Slide Presentation](https://docs.google.com/presentation/d/1ChKxf64mwxygFcGE20_WMQkf2lnopJ01jTeUqy33hEQ/edit?usp=sharing)
 ## **Problem Statement**
 
 Swipe left… Swipe left… Swipe right… MATCH! With applications such as Tinder, Linkedin, and Facebook, users can form impressions on several people in a short amount of time which has greatly affected the way we date, network, and make friends in the 21st century. According to Anna Pitts of Business Insider, first impressions are made in just 7 seconds. This is precisely the problem we aim to address: What are the characteristics that help someone nail a first impression? Using a dataset gathered from a speed dating event, we were able to run various models to see if we could predict if a participant received a match based on the participant’s personality and how the participant came across as. The results from our study provides deeper insights on how we can better market ourselves which has the effect of improving our relationships, job prospects, and friendships.
