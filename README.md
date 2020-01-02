@@ -1,4 +1,5 @@
 # First Impression for Dummies
+Google Slide Presentation: https://docs.google.com/presentation/d/1ChKxf64mwxygFcGE20_WMQkf2lnopJ01jTeUqy33hEQ/edit?usp=sharing
 
 
 ## **Problem Statement**
